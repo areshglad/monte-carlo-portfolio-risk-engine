@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: monte_carlo_source
+    database: monte_carlo
+    schema: default
+    tables:
+      - name: raw_market_prices
